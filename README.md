@@ -1,4 +1,12 @@
 # Automatic-Wi-fi-password-as-QR-Code
+
+## Requisites
+pip install wifi_qrcode_generator
+
+## Code
+import wifi_qrcode_generator as qr
+qr.wifi_qrcode('wifi name', False,'WPA', 'password')
+
 import pyqrcode
 
 from PIL import Image
